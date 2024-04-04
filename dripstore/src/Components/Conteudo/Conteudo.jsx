@@ -1,10 +1,11 @@
+import "./Conteudo.css"
 
 function Conteudo() {
 
 
     return (
       <>
-          <h1>Este é o conteúdo do site!</h1>
+          <h1 className="Conteudo">Este é o conteúdo do site!</h1>
       </>
     )
   }

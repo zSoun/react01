@@ -1,5 +1,6 @@
-import Header from "./Components/Header"
-import Conteudo from "./Components/Conteudo"
+import Header from "./Components/Header/Header"
+import Conteudo from "./Components/Conteudo/Conteudo"
+import Footer from "./Components/Footer/Footer"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
         <Header></Header>
         <Conteudo></Conteudo>
+        <Footer/>
     </>
   )
 }
