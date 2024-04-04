@@ -1,4 +1,6 @@
 import Header from "./Components/Header"
+import Conteudo from "./Components/Conteudo"
+
 
 function App() {
 
@@ -6,6 +8,7 @@ function App() {
   return (
     <>
         <Header></Header>
+        <Conteudo></Conteudo>
     </>
   )
 }
